@@ -1,0 +1,5 @@
+# Place your 4K PNG and 3s GIF here:
+# - neon-soul-13-4k.png
+# - neon-soul-13-preview.gif
+
+(Upload the real image files to this assets/ directory using the GitHub web UI or git LFS if needed.)

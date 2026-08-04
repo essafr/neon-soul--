@@ -1,0 +1,10 @@
+{
+  "name": "neon-soul-13",
+  "version": "1.0.0",
+  "description": "NEON SOUL #13 - CRIMSON SPIRIT metadata and preview",
+  "license": "UNLICENSED",
+  "scripts": {
+    "start": "npx http-server -c-1 . -p 8080"
+  },
+  "dependencies": {}
+}

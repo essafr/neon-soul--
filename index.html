@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>NEON SOUL #13 - Preview</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <style>
+    body { font-family: system-ui, -apple-system, Roboto, "Segoe UI", sans-serif; padding: 24px; background:#050505; color:#eee; }
+    .card { max-width:720px; margin:auto; background:#0b0b0b; padding:20px; border-radius:8px; box-shadow:0 8px 30px rgba(0,0,0,.7); }
+    img { max-width:100%; display:block; margin: 12px 0; border-radius:4px; }
+    h1 { color:#ff3344; }
+    .meta { color:#aaa; }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>NEON SOUL #13 - CRIMSON SPIRIT</h1>
+    <p class="meta">Geometric Wireframe • 1/1 • Ethereum / OKX</p>
+    <img src="assets/neon-soul-13-4k.png" alt="NEON SOUL #13 - 4K preview (place asset at assets/...)"/>
+    <p>Forged in rage. Born in fire.</p>
+    <pre id="metadata" style="white-space:pre-wrap;color:#cfcfcf;background:#050505;padding:10px;border-radius:6px"></pre>
+  </div>
+  <script>
+    fetch('metadata.json').then(r=>r.json()).then(j=>{
+      document.getElementById('metadata').textContent = JSON.stringify(j, null, 2)
+    }).catch(()=>{ document.getElementById('metadata').textContent = 'metadata.json not found' })
+  </script>
+</body>
+</html>
