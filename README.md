@@ -1,6 +1,6 @@
-# Neon Soul #13 — CRIMSON SPIRIT
+# Neon Soul #01--#10000 — CRIMSON SPIRIT
 
-NEON SOUL #13 - CRIMSON SPIRIT
+NEON SOUL #01--#10000 - CRIMSON SPIRIT
 
 Forged in rage. Born in fire.  
 This warrior advances, never retreats. Crimson neon lines cut through the darkness, channeling pure passion into power.
